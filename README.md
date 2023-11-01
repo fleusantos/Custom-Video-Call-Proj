@@ -1,9 +1,9 @@
-# PyPhone  
-Python Based VoIP GUI Calling App  
+# Custom Call Wind
+ Based VoIP GUI Calling App  
    
-## What is PyPhone?  
+## What is this?  
   
-PyPhone is a fully Open Sourced Python Based GUI VoIP Calling App which enables Calling over the Internet Free of cost. PyPhone currently uses ngrok for port forwarding enabling call from anywhere around the world, with minor changes can be used as an off-grid Calling Service within LAN. It uses PyQt5 for its GUI.   
+This is a fully Open Sourced Python Based GUI VoIP Calling App which enables Calling over the Internet Free of cost. PyPhone currently uses ngrok for port forwarding enabling call from anywhere around the world, with minor changes can be used as an off-grid Calling Service within LAN. It uses PyQt5 for its GUI.   
   
 <a title="Open Source Initiative official SVG, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Opensource.svg"><img width="64" alt="Opensource" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opensource.svg/64px-Opensource.svg.png"></a>   
   
@@ -40,11 +40,7 @@ pyphone(Database)------> data(Table) ------------> [Phoneno varchar(12) --------
 `INSERT INTO data values("<PHONE_NUMBER_AFTER_REG>","<PORTNUMBER*>");`  
   
 *PORTNUMBER will be automatically filled by the PyPhone.  
-  
-## Gallery
-![image](images/Image1.png)
-![image](images/Image2.png)
-![image](images/Image3.png)
+
 
 ### ⚠️ Disclaimer: PyPhone is still in its early phase and is in no way near to a stable release. Also, there is no guarantee of its stablity and is susceptible to crashes. PyPhone still requires proper Error Handling methods and is currently not intended to be used as a stable application.
 
